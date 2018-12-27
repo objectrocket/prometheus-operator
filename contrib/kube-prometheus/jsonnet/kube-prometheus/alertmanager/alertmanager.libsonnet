@@ -5,7 +5,7 @@ local k = import 'ksonnet/ksonnet.beta.3/k.libsonnet';
     namespace: 'default',
 
     versions+:: {
-      alertmanager: 'v0.15.2',
+      alertmanager: 'v0.15.3',
     },
 
     imageRepos+:: {
@@ -113,6 +113,11 @@ local k = import 'ksonnet/ksonnet.beta.3/k.libsonnet';
           baseImage: $._config.imageRepos.alertmanager,
           nodeSelector: { 'beta.kubernetes.io/os': 'linux' },
           serviceAccountName: 'alertmanager-' + $._config.alertmanager.name,
+          securityContext: {
+            runAsUser: 1000,
+            runAsNonRoot: true,
+            fsGroup: 2000,
+          },
         },
       },
   },

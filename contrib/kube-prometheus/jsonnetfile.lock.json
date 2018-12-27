@@ -8,7 +8,7 @@
                     "subdir": "contrib/kube-prometheus/jsonnet/kube-prometheus"
                 }
             },
-            "version": "72cd517798083622b2d31943e3f4e38b6b1a204f"
+            "version": "360f5ad835e12f3627a45f2df0487f73ec8969e3"
         },
         {
             "name": "ksonnet",
@@ -18,7 +18,7 @@
                     "subdir": ""
                 }
             },
-            "version": "ed0796f3cb97ebc35ae54f543b1814a7c8dae305"
+            "version": "d03da231d6c8bd74437b74a1e9e8b966f13dffa2"
         },
         {
             "name": "kubernetes-mixin",
@@ -28,7 +28,7 @@
                     "subdir": ""
                 }
             },
-            "version": "9d393239bd361c6ff9883f6d8c8e9bf0b1f1dd13"
+            "version": "64a06754786ca1a28929b9fb05c381085dcdd44c"
         },
         {
             "name": "grafonnet",
@@ -38,7 +38,7 @@
                     "subdir": "grafonnet"
                 }
             },
-            "version": "bce2b3ae55983435f175045d59d0d5431570e120"
+            "version": "eea8b5ba6b8883cf2df5a17c39a42c4b57c0d63e"
         },
         {
             "name": "grafana-builder",
@@ -48,7 +48,7 @@
                     "subdir": "grafana-builder"
                 }
             },
-            "version": "282ae11a6f4fa47bf844a68f8a3eee9dd26a14be"
+            "version": "d60a39a5c01f651fdfef2db7a710bb5319b0dbc4"
         },
         {
             "name": "grafana",
@@ -58,7 +58,7 @@
                     "subdir": "grafana"
                 }
             },
-            "version": "455e08134e1a135f41e1032576487921a759cf51"
+            "version": "3df5e36ecbf348a13e155e12c495ac9fd05030b6"
         },
         {
             "name": "prometheus-operator",
@@ -68,7 +68,7 @@
                     "subdir": "jsonnet/prometheus-operator"
                 }
             },
-            "version": "82a6ad2071ff653e38b3b4719ecb789d73f3ab05"
+            "version": "72ec4b9b16ef11700724dc71fec77112536eed40"
         },
         {
             "name": "etcd-mixin",
@@ -78,7 +78,7 @@
                     "subdir": "Documentation/etcd-mixin"
                 }
             },
-            "version": "965ba5ca8bbf015b68abe3ad45c99270dc1022fb"
+            "version": "dedae6eb7c253635e70403a1fb04842700277b23"
         }
     ]
 }
